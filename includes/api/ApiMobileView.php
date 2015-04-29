@@ -230,7 +230,7 @@ class ApiMobileView extends ApiBase {
 			$this->getResult()->addValue( null, $this->getModuleName(),
 				array(
 					'editable' => $editable,
-					ApiResult::META_BC_BOOLS => array(' editable' ),
+					ApiResult::META_BC_BOOLS => array( 'editable' ),
 				)
 			);
 		}
